@@ -15,7 +15,7 @@ This system provides:
 - Structured ticket logging through a PHP interface  
 - Secure storage using MySQL (via XAMPP)  
 - Real-time analytics using Power BI dashboards  
-- SLA monitoring and performance tracking  
+- Performance tracking and resolution monitoring  
 
 It bridges the gap between ticket operations and data-driven decision-making.
 
@@ -25,6 +25,7 @@ It bridges the gap between ticket operations and data-driven decision-making.
 
 ![Helpdesk Dashboard](screenshots/dashboard_overview.png)
 
+---
 
 ## 📊 Dashboard Features
 
@@ -36,15 +37,15 @@ It bridges the gap between ticket operations and data-driven decision-making.
 - Customer Feedback Ratings Analysis
 - Interactive Filters (Agent Name, Status, Priority)
 
-```
-```
+---
+
 ## 🛠️ Tech Stack
 
-- **Frontend:** PHP
-- **Database:** MySQL (XAMPP)
-- **Server:** Apache (XAMPP)
-- **Analytics & Visualization:** Microsoft Power BI
-- **Development Tool:** Visual Studio Code
+- **Frontend:** PHP  
+- **Database:** MySQL (XAMPP)  
+- **Server:** Apache (XAMPP)  
+- **Analytics & Visualization:** Microsoft Power BI  
+- **Development Tool:** Visual Studio Code  
 
 ---
 
@@ -52,21 +53,21 @@ It bridges the gap between ticket operations and data-driven decision-making.
 
 The system follows a three-tier architecture:
 
-1. **Presentation Layer**
-   - PHP-based ticket submission form
-   - User interface for ticket tracking
+### 1️⃣ Presentation Layer
+- PHP-based ticket submission form  
+- User interface for ticket tracking  
 
-2. **Application Layer**
-   - PHP logic for validation and workflow management
-   - Ticket lifecycle: Open → In Progress → Resolved
+### 2️⃣ Application Layer
+- PHP logic for validation and workflow management  
+- Ticket lifecycle: Open → In Progress → Resolved  
 
-3. **Database Layer**
-   - MySQL relational database
-   - Normalized schema with indexed fields
+### 3️⃣ Database Layer
+- MySQL relational database  
+- Normalized schema with indexed fields  
 
-4. **Analytics Layer**
-   - Power BI connected directly to MySQL
-   - Interactive dashboards with drill-down analysis
+### 4️⃣ Analytics Layer
+- Power BI connected directly to MySQL  
+- Interactive dashboards with drill-down analysis  
 
 ---
 
@@ -76,12 +77,13 @@ The system follows a three-tier architecture:
 2. Data is validated and stored in MySQL  
 3. IT staff update ticket status  
 4. Power BI retrieves data from database  
-5. Dashboards display trends, SLA compliance, and workload metrics  
+5. Dashboards display trends and workload metrics  
 
-```
-```
+---
 
 ## 📁 Project Structure
+
+```
 helpdesk-ticket-analysis/
 │
 ├── README.md
@@ -91,9 +93,9 @@ helpdesk-ticket-analysis/
 │   └── index.php
 ├── powerbi/
 │   └── Helpdesk Database.pbix
-
-
 ```
+
+---
 
 ## 🎯 Key Objectives
 
@@ -104,7 +106,6 @@ helpdesk-ticket-analysis/
 - Reduce downtime caused by unresolved issues  
 
 ---
-````
 
 ## 🚀 How to Run the Project
 
@@ -113,7 +114,7 @@ helpdesk-ticket-analysis/
 3. Place PHP files inside XAMPP `htdocs` folder  
 4. Open browser and run `localhost/php/index.php`  
 5. Connect Power BI to MySQL database  
-6. Load dashboard file (.pbix)  
+6. Load the dashboard file (`.pbix`)  
 
 ---
 
@@ -136,7 +137,7 @@ helpdesk-ticket-analysis/
 
 ---
 
-## 📚 Project Significance
+## 💼 Business Impact
 
 This project demonstrates integration of database management, backend development, and business intelligence tools to create a scalable IT service management solution suitable for SMEs.
 
@@ -144,4 +145,4 @@ This project demonstrates integration of database management, backend developmen
 
 ## 👩‍💻 Author
 
- Developed by **Nikhitha R**
+Developed by **Nikhitha R**
