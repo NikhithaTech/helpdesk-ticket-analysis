@@ -18,6 +18,7 @@ This system provides:
 - SLA monitoring and performance tracking  
 
 It bridges the gap between ticket operations and data-driven decision-making.
+
 ---
 
 ## 📊 Dashboard Preview
