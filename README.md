@@ -73,7 +73,7 @@ The system follows a three-tier architecture:
 - Staff workload distribution  
 - Department-wise ticket trends  
 
----
+```
 
 ## 📁 Project Structure
 helpdesk-ticket-analysis/
@@ -85,7 +85,7 @@ helpdesk-ticket-analysis/
 │   └── index.php
 ├── powerbi/
 │   └── dashboard.pbix
----
+```
 
 ## 🎯 Key Objectives
 
