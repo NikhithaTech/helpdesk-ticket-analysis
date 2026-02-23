@@ -80,11 +80,11 @@ helpdesk-ticket-analysis/
 │
 ├── README.md
 ├── database/
-│   └── schema.sql
+│   └── helpdesk_db.sql
 ├── php/
 │   └── index.php
 ├── powerbi/
-│   └── dashboard.pbix
+│   └── Helpdesk Database.pbix
 ```
 
 ## 🎯 Key Objectives
