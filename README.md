@@ -25,6 +25,19 @@ It bridges the gap between ticket operations and data-driven decision-making.
 
 ![Helpdesk Dashboard](screenshots/dashboard_overview.png)
 
+
+## 📊 Dashboard Features
+
+- 6 KPI Cards (Total Tickets, Open, In Progress, Resolved, Avg Response Time, Avg Feedback Rating)
+- Ticket Trend by Priority (Line Chart)
+- Ticket Status Distribution (Donut Chart)
+- Tickets by Priority (Bar Chart)
+- Tickets by Agent Performance
+- Customer Feedback Ratings Analysis
+- Interactive Filters (Agent Name, Status, Priority)
+
+```
+```
 ## 🛠️ Tech Stack
 
 - **Frontend:** PHP
@@ -65,18 +78,7 @@ The system follows a three-tier architecture:
 4. Power BI retrieves data from database  
 5. Dashboards display trends, SLA compliance, and workload metrics  
 
----
-
-## 📊 Dashboard Features
-
-- Ticket count by category  
-- Ticket priority distribution  
-- Status tracking (Open / In Progress / Resolved)  
-- Average resolution time  
-- SLA compliance monitoring  
-- Staff workload distribution  
-- Department-wise ticket trends  
-
+```
 ```
 
 ## 📁 Project Structure
@@ -89,6 +91,8 @@ helpdesk-ticket-analysis/
 │   └── index.php
 ├── powerbi/
 │   └── Helpdesk Database.pbix
+
+
 ```
 
 ## 🎯 Key Objectives
@@ -100,11 +104,12 @@ helpdesk-ticket-analysis/
 - Reduce downtime caused by unresolved issues  
 
 ---
+````
 
 ## 🚀 How to Run the Project
 
 1. Install XAMPP and start Apache + MySQL  
-2. Import `schema.sql` into MySQL via phpMyAdmin  
+2. Import `helpdesk_db.sql` into MySQL via phpMyAdmin  
 3. Place PHP files inside XAMPP `htdocs` folder  
 4. Open browser and run `localhost/php/index.php`  
 5. Connect Power BI to MySQL database  
@@ -139,4 +144,4 @@ This project demonstrates integration of database management, backend developmen
 
 ## 👩‍💻 Author
 
- Nikhitha.R
+ Developed by **Nikhitha R**
